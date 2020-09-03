@@ -1,0 +1,12 @@
+
+Total de Colunas: 10
+Coluna 1: 3
+Coluna 2: 1
+Coluna 3: 0
+Coluna 4: 4
+Coluna 5: 0
+Coluna 6: 8
+Coluna 7: 2
+Coluna 8: 12
+Coluna 9: 0
+Coluna 10: 14
