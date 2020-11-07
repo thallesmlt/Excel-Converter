@@ -115,6 +115,8 @@ namespace Conversor
                         matriz[i - 1, j - 1] = matriz[i - 1, j - 1].Replace("|", "/");
                         matriz[i - 1, j - 1] = matriz[i - 1, j - 1].Replace("\"", " ");
                         matriz[i - 1, j - 1] = matriz[i - 1, j - 1].Replace(";", " ");
+                        matriz[i - 1, j - 1] = matriz[i - 1, j - 1].Replace("(", "-");
+                        matriz[i - 1, j - 1] = matriz[i - 1, j - 1].Replace(")", "-");
                         int quebra = matriz[i - 1, j - 1].IndexOf("\n");
                         int quebrar = matriz[i - 1, j - 1].IndexOf("\r");
                         for (int t = 0; t < matriz[i - 1, j - 1].Length; t++)
